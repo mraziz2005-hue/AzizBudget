@@ -16,7 +16,7 @@
 
 **ميزانيتي (AzizBudget)** تطبيق سطح مكتب يساعدك ترتّب ميزانيتك الشهرية بسهولة: تدخل راتبك ودخلك الإضافي، وتسجّل مصاريفك، وتشوف مباشرة كم صرفت وكم باقي لك من الشهر.
 
-فكرته بدأت من جدول Excel شخصي، وتحوّلت إلى برنامج مستقل تقدر تفتحه من قائمة التطبيقات وتستخدمه يوميًا.
+فكرته بدأت من جدول Excel شخصي، وتحوّلت إلى برنامج مستقل تقدر تفتحه من قائمة التطبيقات وتستخدمه يوميًا. **في التثبيت الجديد تبدأ الميزانية من الصفر** وتضيف دخلك ومصاريفك بنفسك؛ أما التحديث فلا يُصفّر البيانات المحفوظة.
 
 ## 🚀 المميزات
 
@@ -39,12 +39,12 @@
 الإصدار الحالي موجّه إلى **Ubuntu وLinux Mint**. لم يُختبر على كل توزيعات Linux.
 
 1. افتح قسم **Releases** في مستودع المشروع على GitHub.
-2. حمّل الملف **`AzizBudget-1.2-Install.sh`** من الإصدار `v1.2`.
+2. حمّل الملف **`AzizBudget-1.2-Install-Public.sh`** من الإصدار `v1.2`.
 3. افتح الطرفية داخل المجلد الذي حمّلت فيه الملف.
 4. نفّذ:
 
 ```bash
-bash AzizBudget-1.2-Install.sh
+bash AzizBudget-1.2-Install-Public.sh
 ```
 
 بعد التثبيت، افتح قائمة التطبيقات وابحث عن **«ميزانيتي»**.
@@ -116,10 +116,10 @@ Track your salary, additional income, and categorized expenses; view your remain
 
 **Target platforms:** Ubuntu / Linux Mint  
 **Technology:** Python 3 + PySide6 (Qt)  
-**Install:** Download `AzizBudget-1.2-Install.sh` from **Releases**, open a terminal in the download folder, and run:
+**Install:** Download `AzizBudget-1.2-Install-Public.sh` from **Releases**, open a terminal in the download folder, and run:
 
 ```bash
-bash AzizBudget-1.2-Install.sh
+bash AzizBudget-1.2-Install-Public.sh
 ```
 
 The installer may download PySide6 on the first run. The app then works offline. User data stays on each device; cloud sync and automatic updates are not included.
